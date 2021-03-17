@@ -1,0 +1,18 @@
+create table Student(name varchar(30),id integer, gpa float);
+insert into Student(name,id,gpa) values("Ali",1, 2.31);
+insert into Student(name,id,gpa) values("Elif",2, 3.17);
+insert into Student(name,id,gpa) values("Hakan",3, 3.24);
+insert into Student(name,id,gpa) values("Zeynep",4, 2.89);
+select * from Student;
+
+#####################################################################
+OUTPUT
+name	id	gpa
+Ali	1	2.31
+Elif	2	3.17
+Hakan	3	3.24
+Zeynep	4	2.89
+
+#####################################################################
+
+Online MySQL programı ile bir tablo oluşturmak bu kadar kolay. 
